@@ -36,7 +36,17 @@
   <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
   <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
   <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(function(OneSignal) {
+    OneSignal.init({
+      appId: "184c9c2b-ffb0-461e-8e34-fc37030f9cc8",
+    });
+  });
+</script>
 
+  
 </head>
 
 <body id="top">
